@@ -1,0 +1,2 @@
+2026-07-01 22:49:42,600 | INFO | Order Request -> Symbol=BTCUSDT, Side=BUY, Type=MARKET, Quantity=0.001, Price=None
+2026-07-01 22:49:43,085 | ERROR | Order Failed -> 'NoneType' object has no attribute 'futures_create_order'
