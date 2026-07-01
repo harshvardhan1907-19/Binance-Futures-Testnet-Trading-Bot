@@ -173,4 +173,4 @@ The application handles:
 
 ## Author
 
-Harshvardhan Sagar
+Harshvardhan Rathod
