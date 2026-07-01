@@ -1,7 +1,16 @@
 def validate_side(side):
+    """
+    Validate order side.
+
+    Args:
+        side (str): BUY or SELL
+
+    Returns:
+        str: Uppercase validated side.
+    """
     side = side.upper()
 
-    if side not in ["BUY", "SELL"]:
+    if side not in ("BUY", "SELL"):
         raise ValueError("Side must be BUY or SELL.")
 
     return side
@@ -10,7 +19,7 @@ def validate_side(side):
 def validate_order_type(order_type):
     order_type = order_type.upper()
 
-    if order_type not in ["MARKET", "LIMIT"]:
+    if order_type not in ("MARKET", "LIMIT"):
         raise ValueError("Order type must be MARKET or LIMIT.")
 
     return order_type
