@@ -4,7 +4,6 @@ import os
 
 load_dotenv()
 
-
 def get_client():
     api_key = os.getenv("BINANCE_API_KEY")
     api_secret = os.getenv("BINANCE_API_SECRET")
@@ -19,3 +18,5 @@ def get_client():
         api_secret=api_secret,
         testnet=True
     )
+
+    return client
